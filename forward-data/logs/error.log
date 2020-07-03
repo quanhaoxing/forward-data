@@ -1,0 +1,2 @@
+2019-11-29 16:23:28,553 ERROR forward.util.SqlUtil.select(SqlUtil.java:18) - ----------------------数据库连接异常。请重试！------------------------
+2019-11-29 16:23:28,556 ERROR forward.asphaltTransport.AsphaltTransportGxThread.run(AsphaltTransportThread.java:25) - ------------------------------------系统异常，请联系管理员。-----------------------------------------

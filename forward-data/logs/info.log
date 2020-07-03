@@ -1,0 +1,33 @@
+2019-11-27 11:25:41,112 INFO  forward.operation.GjOperation.getData(GjDatabases.java:100) - -------------2.2 运输车轨迹查询结果个数----->	1
+2019-11-27 11:25:41,117 INFO  forward.operation.GjOperation.getData(GjDatabases.java:109) - -----------------2.2 有效且未转发的缓存个数----->	0
+2019-11-27 11:25:41,117 INFO  forward.operation.GjOperation.forward(GjDatabases.java:22) - ----------------------运输车轨迹开始转发------------------------
+2019-11-27 11:25:42,213 INFO  forward.operation.GjOperation.forward(GjDatabases.java:63) - -------------访问地址----->http://112.13.201.85:6086/gkxt-api/api/receive/vehicledata
+2019-11-27 11:25:42,219 INFO  forward.operation.GjOperation.forward(GjDatabases.java:64) - -------------  请求头----->{"source":"djgk-hzlq","Content-Type":"application/json;charset=utf-8","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5LCJpYXQiOjE1NTg1ODA5OTU1MjQsImV4dCI6MTU1ODY2NzM5NTUyNH0.P2tDiaGvLkMoiEAkktUAnMSQvbP-_1mjAGupc5YIEWA"}
+2019-11-27 11:25:42,220 INFO  forward.operation.GjOperation.forward(GjDatabases.java:65) - -------------请求参数----->{"V":74,"SJ":"2019-11-26 09:29:36.0","JD":"120.7847005","XT":"g21hsgs15","WD":"30.3381510"}
+2019-11-27 11:25:42,221 INFO  forward.operation.GjOperation.forward(GjDatabases.java:66) - ---------接口返回结果----->Error request, response status: 404
+2019-11-27 11:25:42,221 INFO  forward.operation.GjOperation.forward(GjDatabases.java:22) - ----------------------运输车轨迹开始转发------------------------
+2019-11-27 11:25:43,162 INFO  forward.operation.GjOperation.getData(GjDatabases.java:100) - -------------2.2 运输车轨迹查询结果个数----->	1
+2019-11-27 11:25:43,163 INFO  forward.operation.GjOperation.getData(GjDatabases.java:109) - -----------------2.2 有效且未转发的缓存个数----->	0
+2019-11-27 11:25:43,244 INFO  forward.operation.GjOperation.forward(GjDatabases.java:63) - -------------访问地址----->http://112.13.201.85:6086/gkxt-api/api/receive/vehicledata
+2019-11-27 11:25:43,244 INFO  forward.operation.GjOperation.forward(GjDatabases.java:64) - -------------  请求头----->{"source":"djgk-hzlq","Content-Type":"application/json;charset=utf-8","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5LCJpYXQiOjE1NTg1ODA5OTU1MjQsImV4dCI6MTU1ODY2NzM5NTUyNH0.P2tDiaGvLkMoiEAkktUAnMSQvbP-_1mjAGupc5YIEWA"}
+2019-11-27 11:25:43,244 INFO  forward.operation.GjOperation.forward(GjDatabases.java:65) - -------------请求参数----->{"V":74,"SJ":"2019-11-26 09:29:36.0","JD":"120.7847005","XT":"g21hsgs15","WD":"30.3381510"}
+2019-11-27 11:25:43,244 INFO  forward.operation.GjOperation.forward(GjDatabases.java:66) - ---------接口返回结果----->Error request, response status: 404
+2019-11-27 11:25:43,244 INFO  forward.operation.GjOperation.forward(GjDatabases.java:22) - ----------------------运输车轨迹开始转发------------------------
+2019-11-27 11:25:44,268 INFO  forward.operation.GjOperation.forward(GjDatabases.java:63) - -------------访问地址----->http://112.13.201.85:6086/gkxt-api/api/receive/vehicledata
+2019-11-27 11:25:44,269 INFO  forward.operation.GjOperation.forward(GjDatabases.java:64) - -------------  请求头----->{"source":"djgk-hzlq","Content-Type":"application/json;charset=utf-8","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5LCJpYXQiOjE1NTg1ODA5OTU1MjQsImV4dCI6MTU1ODY2NzM5NTUyNH0.P2tDiaGvLkMoiEAkktUAnMSQvbP-_1mjAGupc5YIEWA"}
+2019-11-27 11:25:44,269 INFO  forward.operation.GjOperation.forward(GjDatabases.java:65) - -------------请求参数----->{"V":74,"SJ":"2019-11-26 09:29:36.0","JD":"120.7847005","XT":"g21hsgs15","WD":"30.3381510"}
+2019-11-27 11:25:44,269 INFO  forward.operation.GjOperation.forward(GjDatabases.java:66) - ---------接口返回结果----->Error request, response status: 404
+2019-11-27 11:25:44,269 INFO  forward.operation.GjOperation.forward(GjDatabases.java:22) - ----------------------运输车轨迹开始转发------------------------
+2019-11-27 11:25:45,225 INFO  forward.operation.GjOperation.getData(GjDatabases.java:100) - -------------2.2 运输车轨迹查询结果个数----->	1
+2019-11-27 11:25:45,225 INFO  forward.operation.GjOperation.getData(GjDatabases.java:109) - -----------------2.2 有效且未转发的缓存个数----->	0
+2019-11-27 11:25:45,296 INFO  forward.operation.GjOperation.forward(GjDatabases.java:63) - -------------访问地址----->http://112.13.201.85:6086/gkxt-api/api/receive/vehicledata
+2019-11-27 11:25:45,296 INFO  forward.operation.GjOperation.forward(GjDatabases.java:64) - -------------  请求头----->{"source":"djgk-hzlq","Content-Type":"application/json;charset=utf-8","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjU5LCJpYXQiOjE1NTg1ODA5OTU1MjQsImV4dCI6MTU1ODY2NzM5NTUyNH0.P2tDiaGvLkMoiEAkktUAnMSQvbP-_1mjAGupc5YIEWA"}
+2019-11-27 11:25:45,297 INFO  forward.operation.GjOperation.forward(GjDatabases.java:65) - -------------请求参数----->{"V":74,"SJ":"2019-11-26 09:29:36.0","JD":"120.7847005","XT":"g21hsgs15","WD":"30.3381510"}
+2019-11-27 11:25:45,297 INFO  forward.operation.GjOperation.forward(GjDatabases.java:66) - ---------接口返回结果----->Error request, response status: 404
+2019-11-27 11:25:45,297 INFO  forward.operation.GjOperation.forward(GjDatabases.java:22) - ----------------------运输车轨迹开始转发------------------------
+2019-11-29 10:04:34,368 INFO  forward.operation.GjOperation.forward(GjDatabases.java:21) - ----------------------运输车轨迹开始转发------------------------
+2019-11-29 10:04:34,368 INFO  forward.operation.TransportGxOperation.forward(TransportDatabases.java:25) - ----------------------改性运输开始转发------------------------
+2019-11-29 10:31:14,787 INFO  forward.operation.ProcessOperation.forward(ProcessDataBases.java:23) - ----------------------生产过程开始转发------------------------
+2019-11-29 10:31:14,787 INFO  forward.operation.GjOperation.forward(GjDatabases.java:21) - ----------------------运输车轨迹开始转发------------------------
+2019-11-29 11:05:58,381 INFO  forward.operation.GjOperation.forward(GjDatabases.java:21) - ----------------------运输车轨迹开始转发------------------------
+2019-11-29 11:27:36,964 INFO  forward.operation.ProcessOperation.forward(ProcessDataBases.java:23) - ----------------------生产过程开始转发------------------------

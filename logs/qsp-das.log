@@ -1,0 +1,50 @@
+[ERROR][20191120 11:16:11,999][DruidDataSource.validationQueryCheck:764][main] testWhileIdle is true, validationQuery not set
+[ERROR][20191120 11:16:12,004][DruidDataSource.init:633][main] dataSource init error
+java.sql.SQLException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:505)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:568)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:880)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:876)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:92)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:394)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:474)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:484)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:494)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForMap(JdbcTemplate.java:489)
+	at Test.main(Test.java:9)
+Caused by: java.lang.ClassNotFoundException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:604)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:333)
+	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:503)
+	... 12 more
+[INFO ][20191120 11:16:12,021][DruidDataSource.init:642][main] {dataSource-1} inited
+[ERROR][20191120 11:18:23,520][DruidDataSource.validationQueryCheck:764][main] testWhileIdle is true, validationQuery not set
+[ERROR][20191120 11:18:23,526][DruidDataSource.init:633][main] dataSource init error
+java.sql.SQLException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:505)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:568)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:880)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:876)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:92)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:394)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:474)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:484)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:494)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForMap(JdbcTemplate.java:489)
+	at Test.main(Test.java:9)
+Caused by: java.lang.ClassNotFoundException: com.microsoft.sqlserver.jdbc.SQLServerDriver
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:604)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:333)
+	at com.alibaba.druid.util.JdbcUtils.createDriver(JdbcUtils.java:503)
+	... 12 more
+[INFO ][20191120 11:18:23,528][DruidDataSource.init:642][main] {dataSource-1} inited

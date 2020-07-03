@@ -1,0 +1,12 @@
+## forward.setting文件
+driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
+## 生产
+url = jdbc:sqlserver://47.98.222.197;DatabaseName=CICOAsphalt
+user = CICOAsphalt
+pass = cico.1234
+
+## 开发
+## url = jdbc:sqlserver://47.98.222.197;DatabaseName=CICORoadDevelop
+## user = CICOTest
+## pass = Cico.2020
+
